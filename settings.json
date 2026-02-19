@@ -1,0 +1,13 @@
+{
+    "window.commandCenter": true,
+    "editor.renderWhitespace": "all",
+    "editor.detectIndentation": false,
+
+    "[c]": { "editor.tabSize": 8, "editor.insertSpaces": true },
+    "[cpp]": { "editor.tabSize": 8, "editor.insertSpaces": true },
+    "[asm]": { "editor.tabSize": 8, "editor.insertSpaces": true },
+    "[asm-intel-x86-generic]": { "editor.tabSize": 8, "editor.insertSpaces": true },
+    "[python]": { "editor.tabSize": 4, "editor.insertSpaces": true },
+    "[commonlisp]": { "editor.tabSize": 2, "editor.insertSpaces": true },
+    "[verilog]": { "editor.tabSize": 2, "editor.insertSpaces": true }
+}
