@@ -64,7 +64,7 @@ git --git-dir=/workspace/src/.repos/linux.git fetch --all --tags
 ### Step 2. Worktree
 ```bash
 git --git-dir=/workspace/src/.repos/linux.git worktree add /workspace/src/linux/linux-main master
-git --git-dir=/workspace/src/.repos/linux.git branch /workspace/src/linux/linux-exp master
+git --git-dir=/workspace/src/.repos/linux.git branch /workspace/src/linux/linux-exp test-branch
 git --git-dir=/workspace/src/.repos/linux.git worktree add /workspace/src/linux/linux-stable v6.6
 ```
 
