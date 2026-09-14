@@ -1,0 +1,84 @@
+{
+    "layer": "top",
+    "position": "top",
+
+    "height": 32,
+
+    "modules-left": [
+        "hyprland/workspaces"
+    ],
+    "modules-center": [
+        "clock"
+    ],
+    "modules-right": [
+        "wireplumber",
+        "battery"
+    ],
+
+    "hyprland/workspaces": {
+        "format": "{name}"
+    },
+
+    "clock": {
+        "interval": 1,
+        "format": "{:%a  %Y.%m.%d  %H:%M:%S}"
+    },
+
+    "wireplumber": {
+        "format": "{icon} {volume}%",
+        "format-muted": "󰖁 mute",
+
+        "format-icons": [
+            "󰕿",
+            "󰖀",
+            "󰕾"
+        ],
+
+        "scroll-step": 5,
+
+        "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
+
+        "tooltip": false
+    },
+
+    "battery": {
+        "interval": 30,
+
+        "states": {
+            "warning": 20,
+            "critical": 10
+        },
+
+        "format": "{icon} {capacity}%",
+
+        "format-icons": {
+            "default": [
+                "󰂎",
+                "󰁺",
+                "󰁻",
+                "󰁼",
+                "󰁽",
+                "󰁾",
+                "󰁿",
+                "󰂀",
+                "󰂁",
+                "󰂂",
+                "󰁹"
+            ],
+            "charging": [
+                "󰢟",
+                "󰢜",
+                "󰂆",
+                "󰂇",
+                "󰂈",
+                "󰢝",
+                "󰂉",
+                "󰢞",
+                "󰂊",
+                "󰂋",
+                "󰂅"
+            ]
+        }
+    }
+
+}
